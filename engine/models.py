@@ -19,11 +19,12 @@ class TrainColor(Enum):
     ANY = "any"  # Used for grey routes representation in static data, not for cards
 
 class MoveType(Enum):
-    DRAW_WAGON = auto()
+    DRAW_WAGON = auto() # From Deck
     DRAW_TICKET = auto()
     CLAIM_ROUTE = auto()
     BUILD_STATION = auto()
     TUNNEL_RESOLVE = auto() # For paying extra cards or forfeiting
+    DRAW_FACE_UP = auto() # Specific face up card index
 
 @dataclass
 class Card:
@@ -38,7 +39,7 @@ class Ticket:
 @dataclass
 class Action:
     move_type: MoveType
-    target_id: Optional[int] = None # Route ID or Station City ID (hash?)
+    target_id: Optional[int] = None # Route ID, Station City ID, or FaceUp Card Index (0-4)
     color_used: Optional[TrainColor] = None # Specifically chosen color for grey routes
     count: int = 0
     # For Tunnel resolution:
@@ -46,14 +47,44 @@ class Action:
     # if count == 0 in TUNNEL_RESOLVE, it means forfeit.
 
     def to_index(self) -> int:
-        # Placeholder for vectorization logic.
-        # This requires a global mapping of all possible actions.
-        # Implemented later when Action Space is finalized.
-        raise NotImplementedError
+        # Vectorization
+        # 0-917: Claim Route (102 routes * 9 colors)
+        # 918-1340: Build Station (47 cities * 9 colors)
+        # 1341: Draw Wagon Deck
+        # 1342: Draw Ticket Deck
+        # 1343-1347: Draw FaceUp (5 slots)
+        # 1348: Tunnel Pay
+        # 1349: Tunnel Forfeit
+        
+        if self.move_type == MoveType.CLAIM_ROUTE:
+             # target_id is route_id
+             color_idx = list(TrainColor).index(self.color_used) if self.color_used else 0
+             return self.target_id * 9 + color_idx
+             
+        elif self.move_type == MoveType.BUILD_STATION:
+            # target_id is city_id
+            color_idx = list(TrainColor).index(self.color_used) if self.color_used else 0
+            return 918 + self.target_id * 9 + color_idx
+            
+        elif self.move_type == MoveType.DRAW_WAGON:
+            return 1341
+            
+        elif self.move_type == MoveType.DRAW_TICKET:
+            return 1342
+            
+        elif self.move_type == MoveType.DRAW_FACE_UP: 
+            return 1343 + (self.target_id if self.target_id is not None else 0)
+            
+        elif self.move_type == MoveType.TUNNEL_RESOLVE:
+            if self.count > 0: return 1348
+            else: return 1349
+            
+        raise NotImplementedError(f"Action type {self.move_type} not supported for vectorization")
 
     @staticmethod
     def from_index(index: int) -> 'Action':
-        raise NotImplementedError
+        # Placeholder for reverse mapping
+        pass
 
 class Deck:
     def __init__(self, cards: List[Card]):
@@ -130,12 +161,24 @@ class GameState:
         self.ticket_deck: List[Ticket] = [] # Simple list for now, or Deck class if we recycle tickets (usually put to bottom)
         self.face_up_cards: List[Card] = []
         self.active_player_index: int = 0
+        self.cards_drawn_this_turn: int = 0
+        
+        # Static/Global Game Data
+        self.cities: Dict[str, int] = {} # Map city name -> ID
         
         # Tunnel State
         self.tunnel_active: bool = False
         self.tunnel_pending_route_id: Optional[int] = None
         self.tunnel_pending_cards: int = 0
-        self.tunnel_resolving_color: Optional[TrainColor] = None # The color committed to the tunnel
+        self.tunnel_resolving_color: Optional[TrainColor] = None 
+        self.tunnel_initial_payment: List[Card] = [] # Cards committed initially, to be refunded on forfeit
+
+        # Station State
+        self.built_stations: Dict[str, int] = {} # City Name -> Player ID
+
+        # End Game State
+        self.final_turn_triggered: bool = False
+        self.final_turns_remaining: int = -1 # When triggered, set to len(players)
     
     @staticmethod
     def from_json(path: str) -> 'GameState':
@@ -143,6 +186,14 @@ class GameState:
             data = json.load(f)
             
         gs = GameState()
+        
+        # Collect all city names for consistent ID mapping
+        all_cities = set()
+        for entry in data:
+            all_cities.add(entry["stations"][0])
+            all_cities.add(entry["stations"][1])
+        
+        gs.cities = {city: i for i, city in enumerate(sorted(list(all_cities)))}
         
         # Parse Routes
         # data is list of objects
@@ -224,12 +275,22 @@ class GameState:
         
         new_gs.face_up_cards = list(self.face_up_cards)
         new_gs.active_player_index = self.active_player_index
+        new_gs.cards_drawn_this_turn = self.cards_drawn_this_turn
+        new_gs.cities = self.cities # Dictionary is read-only essentially, reference is fine
         
         # Tunnel State
         new_gs.tunnel_active = self.tunnel_active
         new_gs.tunnel_pending_route_id = self.tunnel_pending_route_id
         new_gs.tunnel_pending_cards = self.tunnel_pending_cards
         new_gs.tunnel_resolving_color = self.tunnel_resolving_color
+        new_gs.tunnel_initial_payment = list(self.tunnel_initial_payment) # List of cards
+
+        # Station State
+        new_gs.built_stations = self.built_stations.copy() # Dict copy
+
+        # End Game State
+        new_gs.final_turn_triggered = self.final_turn_triggered
+        new_gs.final_turns_remaining = self.final_turns_remaining
         
         return new_gs
 
