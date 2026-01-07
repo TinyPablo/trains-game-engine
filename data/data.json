@@ -1,0 +1,1376 @@
+[
+    {
+        "stations": [
+            "edinburch",
+            "london"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "edinburch",
+            "london"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "dieppe",
+            "london"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 1
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "dieppe",
+            "london"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 1
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "amsterdam",
+            "london"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "locomotive",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "brest",
+            "dieppe"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "brest",
+            "pamplona"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "brest",
+            "paris"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "dieppe",
+            "paris"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "dieppe",
+            "bruxelles"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "pamplona",
+            "paris"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "pamplona",
+            "paris"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "pamplona",
+            "madrid"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "pamplona",
+            "madrid"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "pamplona",
+            "barcelona"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "madrid",
+            "barcelona"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "madrid",
+            "lisboa"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "madrid",
+            "cadiz"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "lisboa",
+            "cadiz"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "barcelona",
+            "marseille"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "pamplona",
+            "marseille"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "roma",
+            "marseille"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "paris",
+            "marseille"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "paris",
+            "zurich"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "paris",
+            "frankfurt"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "paris",
+            "frankfurt"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "paris",
+            "bruxelles"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "paris",
+            "bruxelles"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "amsterdam",
+            "bruxelles"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "frankfurt",
+            "bruxelles"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "frankfurt",
+            "amsterdam"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "essen",
+            "amsterdam"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "essen",
+            "frankfurt"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "berlin",
+            "frankfurt"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "berlin",
+            "frankfurt"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "munchen",
+            "frankfurt"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "munchen",
+            "zurich"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "marseille",
+            "zurich"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "essen",
+            "kobenhavn"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "essen",
+            "kobenhavn"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "roma",
+            "palermo"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 3
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "brindisi",
+            "palermo"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "brindisi",
+            "atina"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 3
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "smyrna",
+            "atina"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 1
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "smyrna",
+            "palermo"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            },
+            {
+                "color": "locomotive",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "constantinople",
+            "sevastopol"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            },
+            {
+                "color": "locomotive",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "erzurum",
+            "sevastopol"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            },
+            {
+                "color": "locomotive",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "sochi",
+            "sevastopol"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 1
+            },
+            {
+                "color": "locomotive",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "berlin",
+            "danzig"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "bucuresti",
+            "kyiv"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "warszawa",
+            "kyiv"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "kharkov",
+            "kyiv"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "kharkov",
+            "moskva"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "rostov",
+            "sevastopol"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "riga",
+            "petrograd"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "venezia",
+            "zagrab"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "wien",
+            "zagrab"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "danzig",
+            "warszawa"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "wilno",
+            "kyiv"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "rostov",
+            "sochi"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "danzig",
+            "warszawa"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "constantinople",
+            "angora"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "sarajevo",
+            "sofia"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "bucuresti",
+            "sofia"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "munchen",
+            "venezia"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "zurich",
+            "venezia"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "roma",
+            "venezia"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "roma",
+            "brindisi"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "smolensk",
+            "moskva"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "kharkov",
+            "rostov"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "constantinople",
+            "smyrna"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "erzurum",
+            "angora"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "riga",
+            "danzig"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "black",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "munchen",
+            "wien"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "budapest",
+            "zagrab"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "budapest",
+            "sarajevo"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "sofia",
+            "atina"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "budapest",
+            "bucuresti"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "budapest",
+            "kyiv"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 6
+            }
+        ]
+    },
+    {
+        "stations": [
+            "stockholm",
+            "petrograd"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "any",
+                "amount": 8
+            }
+        ]
+    },
+    {
+        "stations": [
+            "sochi",
+            "erzurum"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "smyrna",
+            "angora"
+        ],
+        "tunel": true,
+        "tiles": [
+            {
+                "color": "orange",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "bucuresti",
+            "constantinople"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "sofia",
+            "constantinople"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "kyiv",
+            "smolensk"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "wilno",
+            "smolensk"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "zagrab",
+            "sarajevo"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "wilno",
+            "warszawa"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "berlin",
+            "wien"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "stockholm",
+            "kobenhavn"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "stockholm",
+            "kobenhavn"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "stations": [
+            "essen",
+            "berlin"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "stations": [
+            "wien",
+            "budapest"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "wien",
+            "budapest"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "red",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "stations": [
+            "sarajevo",
+            "atina"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "riga",
+            "wilno"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "green",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "bucuresti",
+            "sevastopol"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "petrograd",
+            "moskva"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "white",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "petrograd",
+            "wilno"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "warszawa",
+            "wien"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "blue",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "warszawa",
+            "berlin"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "yellow",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "stations": [
+            "warszawa",
+            "berlin"
+        ],
+        "tunel": false,
+        "tiles": [
+            {
+                "color": "pink",
+                "amount": 4
+            }
+        ]
+    }
+]
